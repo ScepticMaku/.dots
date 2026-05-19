@@ -34,8 +34,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# Setup Second Monitor
-# exec --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 74.98 --above eDP-1
+# Setup PC Monitor
+# exec --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 75.00
 
 # Launch System Wallpaper
 exec --no-startup-id feh --bg-fill ~/Pictures/kirby-wallpaper.jpg
