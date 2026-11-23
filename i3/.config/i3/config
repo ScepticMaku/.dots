@@ -271,3 +271,4 @@ exec_always --no-startup-id xset -dpms
 
 # Xrandr
 exec_always /home/markj/.local/bin/fix-display.sh
+
